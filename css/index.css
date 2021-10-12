@@ -1,43 +1,20 @@
-.verde{
-    width: 100%;
-    height: 70px;
-    background-color: #27ae60;
-}
 
-.amarillo{
-    width: 50%;
-    height: 70px;
-    background-color: #f1c40f;
-}
-
-.rojo{
-    width: 50%;
-    height: 70px;
-    background-color: #e74c3c;
-}
-
-.azul{
-    width: 80%;
-    height: 70px;
-    background-color: #2980b9;
-}
-
-.sct-contenedor{
+.galeria {
+    padding:  0 2.5%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.contenedor-imagen {
+    width: 95%;
+}
+
+.contenedor-imagen img {
+    width: 100%;
+}
 /* @ es para dar una instruccion*/
 
 @media all and (min-width: 540px) {
-    
-    .sct-contenedor{
-        justify-content:  space-around;
-    }
-    .amarillo {
-        width: 40%;
-    }
-    .rojo{
-        width: 40%;
 
-    }
 }
