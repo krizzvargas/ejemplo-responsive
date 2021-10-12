@@ -17,11 +17,27 @@
 }
 
 .azul{
-    width: 50%;
+    width: 80%;
     height: 70px;
     background-color: #2980b9;
 }
 
 .sct-contenedor{
     display: flex;
+}
+
+/* @ es para dar una instruccion*/
+
+@media all and (min-width: 540px) {
+    
+    .sct-contenedor{
+        justify-content:  space-around;
+    }
+    .amarillo {
+        width: 40%;
+    }
+    .rojo{
+        width: 40%;
+
+    }
 }
