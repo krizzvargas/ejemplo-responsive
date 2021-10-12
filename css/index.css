@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: black;
 }
 
 .contenedor-imagen {
@@ -16,5 +17,20 @@
 /* @ es para dar una instruccion*/
 
 @media all and (min-width: 540px) {
+    .galeria {
+        flex-direction:  row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
 
+    .contenedor-imagen {
+        width:  45%;
+        margin-bottom:  30px;
+    }
+}
+
+@media all and (min-width: 540px) {
+    .contenedor-imagen {
+        width: 30%;
+    }
 }
