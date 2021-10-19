@@ -16,7 +16,7 @@
 }
 /* @ es para dar una instruccion*/
 
-@media all and (min-width: 540px) {
+@media all and (min-width: 768px) {
     .galeria {
         flex-direction:  row;
         flex-wrap: wrap;
@@ -29,7 +29,7 @@
     }
 }
 
-@media all and (min-width: 540px) {
+@media all and (min-width: 1024px) {
     .contenedor-imagen {
         width: 30%;
     }
